@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 
 /* --------global styles ---------- */
 html{
@@ -512,5 +513,52 @@ footer .social-links{
 @media (max-width:767px){
     .modal .image-holder img{
         height: 40%;
+    }
+}
+
+.main-content{
+    margin-top: 50px;
+}
+#experience-counter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    gap: 10px;
+}
+#experience-counter p{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    text-transform: uppercase;
+    gap: 10px;
+    font-weight: bold;
+}
+#experience-counter p span{
+    font-size: 3rem;
+    font-weight: normal;
+}
+@media (max-width:767px){
+
+    #experience-counter{
+        width: 100%;
+    }
+    .main-content .head h1{
+        font-size: 1.3rem;
+    }
+    #experience-counter .spec{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        font-size: 2rem;
+    }
+    #experience-counter .spec span{
+        font-size: 3rem;
+    }
+    #experience-counter p span{
+        font-size: 1.5rem;
     }
 }
